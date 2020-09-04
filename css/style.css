@@ -33,12 +33,12 @@ h1 {
 
 }
 
-.menu-panneau {
+/*.menu-panneau {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
   list-style: none;
   position: relative;
-}
+}*/
 
 /*.menu-panneau ul {
   list-style: none;
@@ -46,7 +46,7 @@ h1 {
 
 }*/
 
-.menu-panneau ul li {
+/*.menu-panneau ul li {
   padding-left: 20px;
 }
 
@@ -89,8 +89,28 @@ h1 {
 .item-panneau>a {
   color: #fff;
   text-decoration: none;
+}*/
+
+/*.panneau figure {
+  float: right;
+}*/
+/*--------------------------------------------------------------*/
+.article {
+  /* position: relative;*/
 }
 
-.panneau figure {
-  float: right;
+.article figure {
+  float: left;
+  position: relative;
+  left: -40px;
+}
+
+#container {
+  width: 70%;
+}
+
+figcaption {
+  text-align: right;
+  font-style: italic;
+  color: #888;
 }
