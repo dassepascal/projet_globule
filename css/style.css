@@ -72,8 +72,9 @@ h1 {
 
 }
 
-/*.panneau {
 
+.panneau {
+  display: none;
   background: linear-gradient(#19b123, #139c19);
   width: 550px;
 }
@@ -86,18 +87,21 @@ h1 {
   list-style: none;
 }
 
-.item-panneau>a {
+.item-panneau a {
   color: #fff;
   text-decoration: none;
-}*/
-
-/*.panneau figure {
-  float: right;
-}*/
-/*--------------------------------------------------------------*/
-.article {
-  /* position: relative;*/
 }
+
+.panneau figure {
+  float: right;
+}
+
+.item:hover .panneau {
+  display: block;
+}
+
+/*--------------------------------------------------------------*/
+
 
 .article figure {
   float: left;
@@ -114,3 +118,5 @@ figcaption {
   font-style: italic;
   color: #888;
 }
+
+/*-----------------------------------*/
