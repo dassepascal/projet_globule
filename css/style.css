@@ -33,20 +33,20 @@ h1 {
 
 }
 
-/*.menu-panneau {
+.menu-panneau {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
   list-style: none;
-  position: relative;
-}*/
+  /* position: relative;*/
+}
 
-/*.menu-panneau ul {
+.menu-panneau ul {
   list-style: none;
   text-align: center;
 
-}*/
+}
 
-/*.menu-panneau ul li {
+.menu-panneau ul li {
   padding-left: 20px;
 }
 
@@ -72,7 +72,7 @@ h1 {
 
 }
 
-.panneau {
+/*.panneau {
 
   background: linear-gradient(#19b123, #139c19);
   width: 550px;
