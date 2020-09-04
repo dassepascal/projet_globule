@@ -75,4 +75,22 @@ h1 {
 .panneau {
 
   background: linear-gradient(#19b123, #139c19);
+  width: 550px;
+}
+
+.sous-panneau {
+  display: block;
+}
+
+.column li {
+  list-style: none;
+}
+
+.item-panneau>a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.panneau figure {
+  float: right;
 }
