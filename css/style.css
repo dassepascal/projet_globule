@@ -87,12 +87,12 @@ h1 {
   border-left: 5px solid black;
   border-right: 5px solid black;
   border-bottom: 5px solid black;
-  z-index: 1;
+  z-index: 2;
 }
 
 .item:hover .panneau-choix {
   display: block;
-  z-index: 1;
+
 }
 
 
@@ -182,3 +182,34 @@ figcaption {
 }
 
 /*-----------------------------------*/
+/*--------logo---------*/
+.headers-param .param {
+  display: table-cell;
+
+
+}
+
+.headers-param {
+  display: table;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.headers-param h2:first-child {
+
+  width: 20px;
+  background: #139c19;
+  border-radius: 50px 0 0 50px;
+
+}
+
+.headers-param h2 {
+  color: #139c19;
+
+
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}
