@@ -216,3 +216,52 @@ figcaption {
   position: relative;
   z-index: 1;
 }
+
+/*footer */
+.footer {
+  border: 1px solid black;
+
+}
+
+.menu-footer {
+  list-style: none;
+  text-align: center;
+  border: 1px solid green;
+  position: absolute;
+  left: 50px;
+
+
+}
+
+.menu-footer li {
+  list-style: none;
+  padding: 10px;
+
+
+}
+
+.menu-footer a {
+  border-radius: 25px 25px;
+  color: #fff;
+}
+
+.item-footer {
+  display: table-cell;
+}
+
+.item-footer a {
+
+  padding: 3px 15px;
+  text-decoration: none;
+  display: block;
+  background-color: #139c19;
+
+}
+
+/*.item-footer a:hover {
+  color: #fafafa;
+
+  text-decoration: none;
+  background: linear-gradient(#19b123, #139c19);
+
+}*/
