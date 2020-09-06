@@ -170,9 +170,9 @@ h1 {
 
 }
 
-.container-article {
+/*.container-article {
   width: 70%;
-}
+}*/
 
 figcaption {
   text-align: right;
@@ -265,3 +265,40 @@ figcaption {
   background: linear-gradient(#19b123, #139c19);
 
 }*/
+/*aside*/
+.main {
+  border: 1px solid black;
+}
+
+.main .col {
+  padding-top: 20px;
+}
+
+
+.main .col {
+  display: table-cell;
+
+}
+
+.main .col:first-child {
+  width: 70%;
+
+}
+
+.main .col:last-child {
+
+  width: 30%;
+  border: 1px solid red;
+}
+
+.container-aside {
+  vertical-align: bottom;
+}
+
+.colrigth h3 {
+  color: #139c19;
+}
+
+.colrigth .position {
+  padding: 10px 10px;
+}
