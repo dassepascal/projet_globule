@@ -76,6 +76,11 @@ h1 {
 }
 
 /* ------------------------------menu panneau----------------------------------*/
+.edit {
+  color: #777;
+  font-style: italic;
+}
+
 /* panneau-choix*/
 
 .panneau-choix {
