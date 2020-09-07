@@ -33,6 +33,7 @@ h1 {
   padding-left: 40px;
   border-radius: 12px;
   background: #fff;
+  box-shadow: 5px 5px 10px #888;
 
 }
 
@@ -268,17 +269,16 @@ figcaption {
   padding: 10px 18px;
   text-decoration: none;
   display: block;
-  background-color: #139c19;
+  background: linear-gradient(#19b123, #139c19);
 
 }
 
-/*.item-footer a:hover {
-  color: #fafafa;
+.item-footer a:hover {
+  background: rgba(21, 165, 29, 0.5);
+  color: #000;
+}
 
-  text-decoration: none;
-  background: linear-gradient(#19b123, #139c19);
 
-}*/
 /*aside*/
 
 
