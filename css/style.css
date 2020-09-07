@@ -60,7 +60,7 @@ h1 {
 }
 
 .item>a {
-  color: #fff;
+  color: #f2f2f2;
   padding: 10px;
   text-decoration: none;
   display: block;
@@ -69,7 +69,7 @@ h1 {
 
 .item a:hover {
   color: #fafafa;
-
+  text-shadow: 1px 1px 1px #000;
   text-decoration: none;
   background: linear-gradient(#19b123, #139c19);
 
@@ -130,8 +130,14 @@ h1 {
 }
 
 /*commun panneau */
+.item-panneau a {
+  color: #000;
+}
+
 .item-panneau a:hover {
-  color: red;
+  color: #ededed;
+  text-shadow: 1px 1px 1px #000;
+
 }
 
 .container-panneau-menu a {
