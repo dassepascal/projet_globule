@@ -183,6 +183,11 @@ h1 {
   left: -40px;
   z-index: 2;
 
+
+}
+
+.article figure img {
+  box-shadow: 6px 0px 15px #888;
 }
 
 
@@ -284,7 +289,18 @@ figcaption {
 
 
 /*aside*/
+.container-article-aside {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 40px;
+  border-collapse: separate;
+}
 
+.container-article-aside .col {
+  padding-right: 40px;
+  border: 1px solid red;
+}
 
 .main .col {
   padding-top: 20px;
@@ -294,6 +310,7 @@ figcaption {
 .main .col {
   display: table-cell;
 
+
 }
 
 .main .col:first-child {
@@ -301,10 +318,17 @@ figcaption {
 
 }
 
+.main .col img {
+  z-index: 2;
+}
+
 .main .col:last-child {
 
   width: 30%;
   border: 1px solid red;
+  padding-left: 5px;
+  box-shadow: 5px 0px 10px #777 inset;
+  z-index: 1;
 }
 
 .container-aside {
