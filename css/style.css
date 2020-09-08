@@ -289,13 +289,13 @@ figcaption {
 
 
 /*aside*/
-.container-article-aside {
+/*.container-article-aside {
   display: table;
   width: 100%;
   table-layout: fixed;
   border-spacing: 40px;
   border-collapse: separate;
-}
+}*/
 
 .container-article-aside .col {
   padding-right: 40px;
