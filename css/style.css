@@ -45,7 +45,11 @@ h1 {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
   list-style: none;
-  /* position: relative;*/
+
+}
+.menu-panneau li{
+  position: relative;
+  left: 20px;
 }
 
 .menu-panneau ul {
@@ -54,9 +58,6 @@ h1 {
 
 }
 
-.menu-panneau ul li {
-  padding-left: 20px;
-}
 
 
 
@@ -69,7 +70,7 @@ h1 {
   padding: 10px;
   text-decoration: none;
   display: block;
-
+margin-left: 5px;
 }
 
 .item a:hover {
@@ -86,13 +87,13 @@ h1 {
   font-style: italic;
 }
 
-/* panneau-choix*/
+/* panneau*/
 
-.panneau-choix {
+.panneau {
   background: linear-gradient(#19b123, #139c19);
   display: none;
   position: absolute;
-  left: 479px;
+  left:0;
   right: 0;
   width: 550px;
   border-left: 5px solid black;
@@ -105,30 +106,17 @@ h1 {
   padding: 5px 10px;
 }
 
-.item:hover .panneau-choix {
+.item:hover .panneau {
   display: block;
 
 }
 
 
-.panneau-choix figure {
+.panneau figure {
   float: right;
   display: block;
 }
 
-/* fin panneau  choix */
-.panneau-triangle {
-  background: linear-gradient(#19b123, #139c19);
- display: none;
-  position: absolute;
-  left: 632px;
-  right: 0;
-  width: 550px;
-  border-left: 5px solid black;
-  border-right: 5px solid black;
-  border-bottom: 5px solid black;
-  z-index: 2;
-}
 
 
 .item:hover .panneau-triangle {
@@ -142,7 +130,7 @@ h1 {
   display: block;
 }
 
-/*commun panneau */
+
 .item-panneau a {
   color: #000;
 }
@@ -151,6 +139,9 @@ h1 {
   color: #ededed;
   text-shadow: 1px 1px 1px #000;
 
+}
+.container-panneau-menu{
+  display: block;
 }
 
 .container-panneau-menu a {
@@ -168,10 +159,10 @@ h1 {
   padding: 20px;
 }
 
-/* menu triangle */
 
 
-/*fin commun */
+
+
 
 .clearfix-overflow {
   overflow: hidden;
