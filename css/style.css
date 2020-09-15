@@ -22,7 +22,7 @@ body {
 h1 {
   color: #139c19;
   text-align: center;
-  text-shadow: -2px -2px 2px #000;
+  text-shadow: -2px 3px 2px #000;
   font-size: 5em;
   padding: 15px 0 15px 0;
 
@@ -45,6 +45,7 @@ h1 {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
   list-style: none;
+  box-shadow: 1px 1px 2px #9c9c9c;
 }
 .menu-panneau li{
   position: relative;
@@ -65,6 +66,7 @@ h1 {
   text-decoration: none;
   display: block;
   margin-left: 5px;
+  font-weight: bold;
 }
 
 .item a:hover {
@@ -122,7 +124,8 @@ h1 {
 .item-panneau a:hover {
   color: #ededed;
   text-shadow: 1px 1px 1px #000;
-
+background:linear-gradient(#19b123, #139c19);
+padding: 10px 10px;
 }
 
 .container-panneau-menu a {
@@ -186,7 +189,7 @@ figcaption {
   border-spacing: 10px;
 }
 
-.headers-param h2:first-child {
+.headers-param div {
 
   width: 20px;
   background: #139c19;
@@ -264,14 +267,12 @@ figcaption {
 
 }
 
-.main .col {
-  padding-top: 20px;
-}
+
 
 
 .main .col {
   display: table-cell;
-
+  padding-top: 20px;
 
 }
 
@@ -326,4 +327,4 @@ figcaption {
   column-rule: 1px solid#f00;
 }
 
-/* ombre*/
+
