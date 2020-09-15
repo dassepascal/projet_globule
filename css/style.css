@@ -37,6 +37,10 @@ h1 {
 
 }
 
+.main-menu {
+  padding: 10px;
+}
+
 .menu-panneau {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
@@ -363,4 +367,13 @@ figcaption {
   column-rule: 1px solid#f00;
 }
 
-/* ombre*/
+/* ombre colonne de gauche*/
+.container-article {
+  box-shadow: 1px 0px 1px #ccc;
+  z-index: 1;
+
+}
+
+.container-aside {
+  z-index: 2;
+}
