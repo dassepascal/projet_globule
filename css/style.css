@@ -326,13 +326,14 @@ figcaption {
 
   width: 30%;
 
-  padding-left: 5px;
 
 
 }
 
 .container-aside {
   vertical-align: bottom;
+  box-shadow: -5px 0 10px #ccc;
+
 
 }
 
