@@ -56,10 +56,6 @@ h1 {
 
 }
 
-
-
-
-
 .item {
   display: table-cell;
 }
@@ -91,7 +87,7 @@ h1 {
 
 .panneau {
   background: linear-gradient(#19b123, #139c19);
-  display: none;
+ /* display: none;*/
   position: absolute;
   left: 0;
   right: 0;
@@ -115,15 +111,8 @@ h1 {
 .panneau img {
   float: right;
   display: block;
+
 }
-
-
-
-
-
-
-
-
 
 
 .item-panneau a {
@@ -141,26 +130,19 @@ h1 {
   text-decoration: none;
 }
 
-.sous-panneau {
+.container-panneau-menu {
   background: linear-gradient(#19b123, #139c19);
 
 }
 
-.container-panneau-menu h4 {
+.sous-menu h4 {
   color: #000;
   padding: 20px;
 }
 
-
-
-
-
-
 .clearfix-overflow {
   overflow: hidden;
 }
-
-
 /*--------------------------------------------------------------*/
 
 
@@ -275,14 +257,7 @@ figcaption {
 }
 
 
-/*aside*/
-/*.container-article-aside {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-  border-spacing: 40px;
-  border-collapse: separate;
-}*/
+
 
 .container-article-aside .col {
   padding-right: 40px;
