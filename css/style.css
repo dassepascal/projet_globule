@@ -18,12 +18,13 @@ body {
 }
 
 /* fin */
+
 h1 {
   color: #139c19;
   text-align: center;
   text-shadow: -2px -2px 2px #000;
   font-size: 5em;
-  padding-bottom: 15px;
+  padding: 15px 0 15px 0;
 
 }
 
@@ -44,7 +45,6 @@ h1 {
   background: linear-gradient(#444, #111);
   border-radius: 25px 25px;
   list-style: none;
-
 }
 .menu-panneau li{
   position: relative;
@@ -53,7 +53,6 @@ h1 {
 .menu-panneau ul {
   list-style: none;
   text-align: center;
-
 }
 
 .item {
@@ -66,7 +65,6 @@ h1 {
   text-decoration: none;
   display: block;
   margin-left: 5px;
-
 }
 
 .item a:hover {
@@ -78,12 +76,15 @@ h1 {
 }
 
 /* ------------------------------menu panneau----------------------------------*/
-.edit {
+/*.edit {
+  color: #777;
+  font-style: italic;
+}*/
+ .container-article .article p{
   color: #777;
   font-style: italic;
 }
 
-/* panneau*/
 
 .panneau {
   background: linear-gradient(#19b123, #139c19);
@@ -104,7 +105,6 @@ h1 {
 
 .item:hover .panneau {
   display: block;
-
 }
 
 
@@ -140,9 +140,9 @@ h1 {
   padding: 20px;
 }
 
-.clearfix-overflow {
+/*.clearfix-overflow {
   overflow: hidden;
-}
+}*/
 /*--------------------------------------------------------------*/
 
 
