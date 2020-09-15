@@ -25,7 +25,6 @@ h1 {
   text-shadow: -2px 3px 2px #000;
   font-size: 5em;
   padding: 15px 0 15px 0;
-
 }
 
 #wrapper {
@@ -36,7 +35,6 @@ h1 {
   border-radius: 12px;
   background: #fff;
   box-shadow: 5px 5px 10px #888;
-
 }
 .main-menu {
   padding: 10px;
@@ -78,10 +76,7 @@ h1 {
 }
 
 /* ------------------------------menu panneau----------------------------------*/
-/*.edit {
-  color: #777;
-  font-style: italic;
-}*/
+
  .container-article .article p{
   color: #777;
   font-style: italic;
@@ -124,8 +119,8 @@ h1 {
 .item-panneau a:hover {
   color: #ededed;
   text-shadow: 1px 1px 1px #000;
-background:linear-gradient(#19b123, #139c19);
-padding: 10px 10px;
+  background:linear-gradient(#19b123, #139c19);
+  padding: 10px 10px;
 }
 
 .container-panneau-menu a {
@@ -135,7 +130,6 @@ padding: 10px 10px;
 
 .container-panneau-menu {
   background: linear-gradient(#19b123, #139c19);
-
 }
 
 .sous-menu h4 {
@@ -154,8 +148,6 @@ padding: 10px 10px;
   position: relative;
   left: -40px;
   z-index: 2;
-
-
 }
 
 .article figure img {
@@ -179,8 +171,6 @@ figcaption {
 /*--------logo---------*/
 .headers-param .param {
   display: table-cell;
-
-
 }
 
 .headers-param {
@@ -190,17 +180,13 @@ figcaption {
 }
 
 .headers-param div {
-
   width: 20px;
   background: #139c19;
   border-radius: 50px 0 0 50px;
-
 }
 
 .headers-param h2 {
   color: #139c19;
-
-
 }
 
 .main {
@@ -212,9 +198,6 @@ figcaption {
 .footer {
   padding-top: 15px;
   border-top: 1px solid #139c19;
-
-
-
 }
 
 .menu-footer {
@@ -223,17 +206,12 @@ figcaption {
   width: 745px;
   margin: 0 auto;
   padding: 18px;
-
-
-
 }
 
 .menu-footer li {
   list-style: none;
   padding: 12px 5px;
   width: 140px;
-
-
 }
 
 .menu-footer a {
@@ -246,12 +224,10 @@ figcaption {
 }
 
 .item-footer a {
-
   padding: 10px 18px;
   text-decoration: none;
   display: block;
   background: linear-gradient(#19b123, #139c19);
-
 }
 
 .item-footer a:hover {
@@ -264,21 +240,15 @@ figcaption {
 
 .container-article-aside .col {
   padding-right: 40px;
-
 }
-
-
-
 
 .main .col {
   display: table-cell;
   padding-top: 20px;
-
 }
 
 .main .col:first-child {
   width: 70%;
-
 }
 
 .main .col img {
@@ -286,18 +256,12 @@ figcaption {
 }
 
 .main .col:last-child {
-
   width: 30%;
-
-
-
 }
 
 .container-aside {
   vertical-align: bottom;
   box-shadow: -5px 0 10px #ccc;
-
-
 }
 
 .colleft,
