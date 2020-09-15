@@ -87,7 +87,7 @@ h1 {
 
 .panneau {
   background: linear-gradient(#19b123, #139c19);
- display: none;
+  display: none;
   position: absolute;
   left: 0;
   right: 0;
